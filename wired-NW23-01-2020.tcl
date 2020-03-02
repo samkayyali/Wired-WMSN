@@ -51,7 +51,7 @@ $ns duplex-link $n8 $n5 0.5Mb 10ms DropTail
 $ns duplex-link $n9 $n8 0.5Mb 10ms DropTail
 
 #Set Queue Size of link (n8-n5) to 10
-$ns queue-limit $n8 $n5 10
+$ns queue-limit $n8 $n5 20
 
 #Give node position (for NAM)
 $ns duplex-link-op  $n0 $n1 orient right
